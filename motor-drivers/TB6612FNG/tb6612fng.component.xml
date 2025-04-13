@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component version="1.5" xmlns="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/component/xml">
+  <declaration>
+    <meta name="name" value="TB6612FNG" />
+    <meta name="minsize" value="50" />
+    <meta name="author" value="Dogwhale65" />
+    <meta name="guid" value="8f764035-18c6-4421-ac7f-5cbd327d4e78" />
+  </declaration>
+<connections>
+    <group>
+      <!-- Left side -->
+      <connection start="_Middle-50x-70y" end="_Start-50x-70y" edge="Start" />
+      <connection start="_Middle-50x-50y" end="_Start-50x-50y" edge="Start" />
+      <connection start="_Middle-50x-30y" end="_Start-50x-30y" edge="Start" />
+      <connection start="_Middle-50x-10y" end="_Start-50x-10y" edge="Start" />
+      <connection start="_Middle-50x+10y" end="_Start-50x+10y" edge="Start" />
+      <connection start="_Middle-50x+30y" end="_Start-50x+30y" edge="Start" />
+      <connection start="_Middle-50x+50y" end="_Start-50x+50y" edge="Start" />
+      <connection start="_Middle-50x+70y" end="_Start-50x+70y" edge="Start" />
+
+      <!-- Right side -->
+      <connection start="_Middle+50x-70y" end="_End+50x-70y" edge="End" />
+      <connection start="_Middle+50x-50y" end="_End+50x-50y" edge="End" />
+      <connection start="_Middle+50x-30y" end="_End+50x-30y" edge="End" />
+      <connection start="_Middle+50x-10y" end="_End+50x-10y" edge="End" />
+      <connection start="_Middle+50x+10y" end="_End+50x+10y" edge="End" />
+      <connection start="_Middle+50x+30y" end="_End+50x+30y" edge="End" />
+      <connection start="_Middle+50x+50y" end="_End+50x+50y" edge="End" />
+      <connection start="_Middle+50x+70y" end="_End+50x+70y" edge="End" />
+
+    </group>
+  </connections>
+  <render>
+    <group>
+      <!-- Chip body -->
+      <rect x="_Middle-50" y="_Middle-90" width="100" height="180" />
+
+      <!-- Left side lines -->
+      <line start="_Middle-50x-70y" end="_Start-50x-70y" />
+      <line start="_Middle-50x-50y" end="_Start-50x-50y" />
+      <line start="_Middle-50x-30y" end="_Start-50x-30y" />
+      <line start="_Middle-50x-10y" end="_Start-50x-10y" />
+      <line start="_Middle-50x+10y" end="_Start-50x+10y" />
+      <line start="_Middle-50x+30y" end="_Start-50x+30y" />
+      <line start="_Middle-50x+50y" end="_Start-50x+50y" />
+      <line start="_Middle-50x+70y" end="_Start-50x+70y" />
+
+      <!-- Right side lines -->
+      <line start="_Middle+50x-70y" end="_End+50x-70y" />
+      <line start="_Middle+50x-50y" end="_End+50x-50y" />
+      <line start="_Middle+50x-30y" end="_End+50x-30y" />
+      <line start="_Middle+50x-10y" end="_End+50x-10y" />
+      <line start="_Middle+50x+10y" end="_End+50x+10y" />
+      <line start="_Middle+50x+30y" end="_End+50x+30y" />
+      <line start="_Middle+50x+50y" end="_End+50x+50y" />
+      <line start="_Middle+50x+70y" end="_End+50x+70y" />
+
+
+      <!-- Left side labels -->
+      <text x="_Middle-46" y="_Middle-70" align="CentreLeft" size="large" value="PWMA" />
+      <text x="_Middle-46" y="_Middle-50" align="CentreLeft" size="large" value="AIN2" />
+      <text x="_Middle-46" y="_Middle-30" align="CentreLeft" size="large" value="AIN1" />
+      <text x="_Middle-46" y="_Middle-10" align="CentreLeft" size="large" value="STBY" />
+      <text x="_Middle-46" y="_Middle+10" align="CentreLeft" size="large" value="BIN1" />
+      <text x="_Middle-46" y="_Middle+30" align="CentreLeft" size="large" value="BIN2" />
+      <text x="_Middle-46" y="_Middle+50" align="CentreLeft" size="large" value="PWMB" />
+      <text x="_Middle-46" y="_Middle+70" align="CentreLeft" size="large" value="GND" />
+
+      <!-- Right side labels -->
+      <text x="_Middle+46" y="_Middle-70" align="CentreRight" size="large" value="VM" />
+      <text x="_Middle+46" y="_Middle-50" align="CentreRight" size="large" value="VCC" />
+      <text x="_Middle+46" y="_Middle-30" align="CentreRight" size="large" value="GND" />
+      <text x="_Middle+46" y="_Middle-10" align="CentreRight" size="large" value="AO1" />
+      <text x="_Middle+46" y="_Middle+10" align="CentreRight" size="large" value="AO2" />
+      <text x="_Middle+46" y="_Middle+30" align="CentreRight" size="large" value="BO2" />
+      <text x="_Middle+46" y="_Middle+50" align="CentreRight" size="large" value="BO1" />
+      <text x="_Middle+46" y="_Middle+70" align="CentreRight" size="large" value="GND" />
+
+      <!-- Center label -->
+    </group>
+  </render>
+</component>
